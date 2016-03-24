@@ -6,8 +6,11 @@ Infers or tries to find GitHub users' Twitter handles and present them to you in
 
 ![Screenshot][screenshot]
 
+The logo is a lousy ode to [`refined-github`][rg]. You should install it. It's super good.
+
 ## License
 
 MIT
 
 [screenshot]: https://github.com/bevacqua/twitter-for-github/blob/master/screenshot.png
+[rg]: https://github.com/sindresorhus/refined-github
