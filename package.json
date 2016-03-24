@@ -1,0 +1,31 @@
+{
+  "name": "twitter-for-github",
+  "version": "1.0.0",
+  "description": "Twitter handles for GitHub",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevacqua/twitter-for-github.git"
+  },
+  "author": "Nicolás Bevacqua <nico@ponyfoo.com> (https://ponyfoo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevacqua/twitter-for-github/issues"
+  },
+  "homepage": "https://github.com/bevacqua/twitter-for-github",
+  "xo": {
+    "space": true,
+    "envs": [
+      "browser",
+      "jquery"
+    ],
+    "ignore": [
+      "extension/vendor"
+    ]
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "devDependencies": {
+    "xo": "*"
+  }
+}
