@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!existing.length) {
       fetch(`https://get-twitter-username.herokuapp.com/${ownerName}`)
-        .then(res => res.json())
+        .then(res => res.text())
         .then(profile => sanitizedTwitterHandle(profile))
         .then(username => {
           if (username) {
