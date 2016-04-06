@@ -66,7 +66,7 @@ chrome.runtime.onMessage.addListener(() => {
   const isResults = results.length > 0;
 
   if (isResults) {
-    for(var i = 0; i < results.length; i++) {
+    for (var i = 0; i < results.length; i++) {
       const $el = $(results.get(i));
       const username = $el.find('a').attr('href');
       const info = $el.find('.user-list-info li');
