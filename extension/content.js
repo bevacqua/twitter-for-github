@@ -1,6 +1,6 @@
 'use strict';
 
-function sanitizeTwitterHandle(username) {
+function sanitizedTwitterHandle(username) {
   const rhandle = /^[A-z0-9_]+$/;
   const handle = username && username || '';
   return rhandle.test(handle) ? handle : null;
