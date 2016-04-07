@@ -6,10 +6,16 @@
   "manifest_version": 2,
   "minimum_chrome_version": "48",
   "permissions": [
+    "tabs",
     "https://github.com/*"
   ],
   "icons": {
     "128": "icon.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
   },
   "content_scripts": [
     {
